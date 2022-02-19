@@ -1,0 +1,49 @@
+form label {
+  display: block;
+  margin: 15px 0px 5px;
+}
+form {
+  width: 90%;
+  margin: 40px auto;
+  font-family: $font-secondary;
+  font-weight: 700;
+}
+form input {
+  width: 100%;
+  background-color: $color-yellow;
+  border: none;
+}
+textarea {
+  width: 100%;
+  background-color: $color-yellow;
+  height: 200px;
+  border: none;
+}
+.send-button {
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+}
+.checkbox-text {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: $font-secondary;
+  color: $color-yellow;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.checkbox-container {
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 50%;
+  }
+}

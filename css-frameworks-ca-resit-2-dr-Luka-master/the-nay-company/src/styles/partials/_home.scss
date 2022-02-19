@@ -1,0 +1,57 @@
+.banner {
+  font-family: $font-primary;
+  background-color: $color-blue;
+  color: $color-yellow;
+  font-size: 50px;
+  text-align: left;
+  padding: 50px 75px;
+}
+.yellow {
+  background-color: $color-yellow;
+  color: $color-blue;
+}
+.blue {
+  background-color: $color-blue;
+  color: $color-yellow;
+}
+.card {
+  margin: 25px;
+  padding: 25px;
+  font-family: $font-secondary;
+}
+.card-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.card-text {
+  max-height: 100px;
+  overflow: hidden;
+}
+.read-more-button {
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .banner {
+    text-align: center;
+    font-size: 60px;
+  }
+  .card {
+    width: 363px;
+    height: 300px;
+    position: relative;
+  }
+  .read-more-button {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+    width: 80%;
+  }
+}

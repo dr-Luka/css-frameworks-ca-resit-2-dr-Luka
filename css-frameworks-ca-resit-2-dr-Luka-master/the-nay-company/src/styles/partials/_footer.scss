@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-yellow;
+  font-family: $font-secondary;
+  font-size: 12px;
+  color: $color-font-footer;
+  padding: 10px;
+  margin-top: 200px;
+}
+.sign-up-footer {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .sign-up-footer {
+    display: block;
+    width: 400px;
+  }
+  .footer {
+    padding: 30px;
+  }
+}

@@ -1,0 +1,40 @@
+.navbar {
+  background-color: $color-green;
+  font-family: $font-secondary;
+}
+.navbar-collapse {
+  margin-left: 26px;
+}
+.nav-logo {
+  font-family: $font-primary;
+  color: $color-blue;
+  color: $color-blue;
+  margin-left: 26px;
+}
+.nav-input {
+  height: 30px;
+  padding-left: 10px;
+  width: 70%;
+}
+.sign-up-button {
+  background-color: $color-blue;
+  color: $color-white;
+  border: none;
+  height: 30px;
+}
+.nav-icons {
+  display: none;
+  margin-left: 20px;
+}
+.space {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .sign-up {
+    display: none;
+  }
+  .nav-icons {
+    display: inline-block;
+  }
+}
